@@ -1,0 +1,23 @@
+﻿<Window x:Class="test_staff.editWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_staff"
+        mc:Ignorable="d"
+        Title="Редагування співробітника" Height="339" Width="324">
+    <Grid>
+        <TextBox x:Name="textPIB" HorizontalAlignment="Left" Margin="132,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textSalary" HorizontalAlignment="Left" Margin="132,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbPositions" HorizontalAlignment="Left" Margin="132,113,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="TITLE" SelectedValuePath="ID"/>
+        <Label Content="ПІБ:" HorizontalAlignment="Left" Margin="89,63,0,0" VerticalAlignment="Top"/>
+        <Label Content="Посада:" HorizontalAlignment="Left" Margin="68,109,0,0" VerticalAlignment="Top"/>
+        <Label Content="Зарплата:" HorizontalAlignment="Left" Margin="58,156,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dateBirthDate" HorizontalAlignment="Left" Margin="132,205,0,0" VerticalAlignment="Top"/>
+        <Label Content="День народження:" HorizontalAlignment="Left" Margin="8,203,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSave" Content="Редагувати співробітника" HorizontalAlignment="Left" Margin="113,263,0,0" VerticalAlignment="Top" Click="btnSave_Click"/>
+        <Label Content="Код:" HorizontalAlignment="Left" Margin="82,32,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelId" Content="" HorizontalAlignment="Left" Margin="132,32,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

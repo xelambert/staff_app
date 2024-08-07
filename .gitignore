@@ -1,0 +1,106 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.vspscc
+*.vssscc
+*.tmp
+*.log
+*.log2
+*.swp
+*.class
+*.cache
+*.csproj.user
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.snk
+
+# Backup & Report files
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.bak
+*.orig
+*.seed
+*.svclog
+*.scc
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esult*/
+[Tt]estResults/
+
+# Local history
+.localhistory
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Common archive files
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.gzip
+*.bz2
+*.xz
+*.tgz
+*.tz
+*.iso
+*.dmg
+*.box
+*.boxbackup
+
+# Azure DevOps
+.vs/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Directories for yarn and yarn logs
+.yarn/
+.pnp/
+.pnp.js
+
+# More things
+.idea/
+.nuget/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
